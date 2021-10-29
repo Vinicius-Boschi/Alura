@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header  {
+    background-color: rgba(128, 128, 128, 0.534);
+    padding: 20px 0;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display:  inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {    
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(182, 103, 0);
+}
