@@ -95,3 +95,43 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+.input-basic{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.button {
+    background: orange;
+    color: #ffff;
+    width: 230px;
+    height: 40px;
+    font-size: 16pt;
+    border-radius: 5px;
+    border: none;
+}
