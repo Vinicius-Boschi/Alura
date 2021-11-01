@@ -94,7 +94,7 @@ nav a:hover {
 footer {
     text-align: center;
     background: url(../imagem/bg.jpg);
-    padding: 40px;
+    padding: 40px 0;
 }
 
 .copyright {
@@ -104,11 +104,6 @@ footer {
 }
 
 /* Css da página de Contato */
-
-main {
-    width: 940px;
-    margin: 0 auto;
-}
 
 form {
     margin: 40px 0;
@@ -179,6 +174,13 @@ td, th {
     clear: left;
 }
 
+.primary {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .primary p {
     margin: 0 0 1em;
 }
@@ -187,11 +189,11 @@ td, th {
     width: 120px;
     float: left;
     margin: 0 20px 20px 0;
-    z-index: 999;
 }
 
-.maps {
+.maps, .benefits {
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
 }
 
 .maps p {
@@ -199,11 +201,12 @@ td, th {
     text-align: center;
 }
 
-.benefits {
-    padding: 3em 0;
+.content-map {
+    width: 940px;
+    margin: 0 auto;
 }
 
-.content-benefits {
+.benefits-content {
     width: 640px;
     margin: 0 auto;
 }
@@ -212,18 +215,30 @@ td, th {
     width: 40%;
     display: inline-block;
     vertical-align: top;
+    list-style-type: none;
+}
+
+.benefits-image {
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 6px 8px 8px black;
+}
+
+.benefits-image:hover {
+    opacity: 0.5;
 }
 
 .itens {
     line-height: 2;
 }
 
-.itens:first-child {
-    font-weight: bold;
+.itens:before {
+    content: "✪ ";
 }
 
-.benefits-image {
-    width: 60%;
+.itens:first-child {
+    font-weight: bold;
 }
 
 .video {
