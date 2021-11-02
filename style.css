@@ -344,5 +344,6 @@ td, th {
     .products li{
         display: grid;
         margin-top: 20px;
+        padding: 10px;
     }
 }
