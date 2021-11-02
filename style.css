@@ -304,7 +304,7 @@ td, th {
 
 /* Responsividade do site */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) { /* Página Principal */
     .box, .primary, .benefits-content, .content-map, .video {
         width: auto;
     }
@@ -337,5 +337,12 @@ td, th {
         margin: 0 auto;
         width: auto;
         height: 27em;
+    }
+
+    /* Página de Produtos */
+
+    .products li{
+        display: grid;
+        margin-top: 20px;
     }
 }
