@@ -30,6 +30,7 @@ nav {
 nav li {
     display:  inline;
     margin: 0 0 0 15px;
+    line-height: 2em;
 }
 
 nav a {    
@@ -45,8 +46,9 @@ nav a:hover {
     text-decoration: underline;
     color: rgb(172, 112, 0);
 }
+
 .mobile-btn {
-    margin: 50px auto 0px auto;
+    margin: auto;
     display: block;
     color: #000;
     height: 36px;
@@ -91,10 +93,6 @@ nav a:hover {
     transition: .3s;
     font-weight: bold;
     font-size: 15pt;
-}
-  
-.menu-mobile li {
-    line-height: 2em;
 }
   
 .menu-mobile.active {
@@ -240,6 +238,7 @@ td, th {
 
 .primary p {
     margin: 0 0 1em;
+    line-height: 2em;
 }
 
 .itens-barber {
@@ -303,11 +302,7 @@ td, th {
     margin: 2em auto;
 }
 
-@media screen and (max-width: 1200px) {
-    .mobile-btn {
-        display: none;
-    }
-}
+/* Responsividade do site */
 
 @media screen and (max-width: 480px) {
     .box, .primary, .benefits-content, .content-map, .video {
@@ -322,7 +317,25 @@ td, th {
         position: static;
     }
 
+    .primary, .tittle {
+        padding: 10px;
+    }
+
+    .primary p {
+        line-height: 2em;
+    }
+
+    .benefits-content {
+        margin-left: 90px;
+    }
+
     .benefits-list {
         width: 100%;
+    }
+
+    footer {
+        margin: 0 auto;
+        width: auto;
+        height: 27em;
     }
 }
