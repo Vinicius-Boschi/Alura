@@ -161,7 +161,7 @@ footer {
 /* Css da página de Contato */
 
 form {
-    margin: 40px 0;
+    margin: 40px 20px;
 }
 
 form label, form legend {
@@ -203,7 +203,7 @@ fieldset {
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px 20px 40px;
 }
 
 thead {
@@ -304,7 +304,8 @@ td, th {
 
 /* Responsividade do site */
 
-@media screen and (max-width: 480px) { /* Página Principal */
+@media screen and (max-width: 480px) { 
+    /* Página Principal */
     .box, .primary, .benefits-content, .content-map, .video {
         width: auto;
     }
