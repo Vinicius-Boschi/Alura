@@ -345,7 +345,7 @@ td, th {
 
     .products li{
         width: 300px;
-        display: grid;
+        margin-left: 6em;
         margin-top: 20px;
         padding: 10px;
     }
@@ -394,7 +394,7 @@ td, th {
 
         .products li{
             width: 300px;
-            
+            margin-left: 6em;
             margin-top: 20px;
             padding: 10px;
         }
@@ -443,6 +443,7 @@ td, th {
 
         .products li{
             width: 300px;
+            margin-left: 4em;
             margin-top: 20px;
             padding: 10px;
         }
