@@ -302,9 +302,7 @@ td, th {
     margin: 2em auto;
 }
 
-/* Responsividade do site */
-
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 500px) { 
     /* Página Principal */
     .box, .primary, .benefits-content, .content-map, .video {
         width: auto;
@@ -334,10 +332,9 @@ td, th {
         width: 100%;
     }
 
-    footer {
+    footer, .copyright {
         margin: 0 auto;
-        width: auto;
-        height: 27em;
+        padding: 0 auto;
     }
 
     /* Página de Produtos */
@@ -351,5 +348,51 @@ td, th {
         display: grid;
         margin-top: 20px;
         padding: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+        /* Página Principal */
+        .box, .primary, .benefits-content, .content-map, .video {
+            width: auto;
+        }
+    
+        h1 {
+            text-align: center;
+        }
+    
+        nav {
+            position: static;
+        }
+    
+        .primary, .tittle {
+            padding: 10px;
+        }
+    
+        .primary p {
+            line-height: 2em;
+        }
+    
+        .benefits-content {
+            margin-left: 90px;
+        }
+    
+        .benefits-list {
+            width: 100%;
+        }
+
+        footer, .copyright {
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+
+}
+
+@media screen and (max-width: 1200px){
+    /* Página Principal*/
+
+    footer, .copyright {
+        margin: 0 auto;
+        padding: 0 auto;
     }
 }
