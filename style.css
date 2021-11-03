@@ -341,10 +341,12 @@ td, th {
 
     /* Página de Produtos */
 
-
+    .products {
+        width: auto;
+    }
 
     .products li{
-        
+        width: 300px;
         display: grid;
         margin-top: 20px;
         padding: 10px;
