@@ -385,14 +385,4 @@ td, th {
             margin: 0 auto;
             padding: 0 auto;
         }
-
-}
-
-@media screen and (max-width: 1200px){
-    /* Página Principal*/
-
-    footer, .copyright {
-        margin: 0 auto;
-        padding: 0 auto;
-    }
 }
