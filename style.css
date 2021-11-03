@@ -59,7 +59,7 @@ nav a:hover {
 }
   
 .mobile-btn::after, .mobile-btn::before {
-    content: '';
+    content: "";
     display: block;
     height: 4px;
     margin-top: 6px;
